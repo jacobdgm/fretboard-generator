@@ -55,7 +55,7 @@ def fretboard(chord = (4, 8, 11), tuning = (4, 9, 2, 7, 11, 4),
                 row_output = row_output + o_ch
         output = output + row_output + n_ch
 
-    #remove final line break
+    # remove final line break
     return output[:-1]
 
 
@@ -388,10 +388,10 @@ b_aeolian = (11, 1, 2, 4, 6, 7, 9)
 b_locrian = (11, 0, 2, 4, 5, 7, 9)
 
 # lists of chords
-maj_and_minor = (c_M, c_m, db_M, db_m, d_M, d_m, eb_M, eb_m, e_M, e_m,
+maj_and_min = (c_M, c_m, db_M, db_m, d_M, d_m, eb_M, eb_m, e_M, e_m,
                  f_M, f_m, gb_M, gb_m, g_M, g_m, ab_M, ab_m, a_M, a_m,
                  bb_M, bb_m, b_M, b_m)
 
-maj_and_minor_diatonic_roots = (c_M, c_m, d_M, d_m, e_M, e_m, f_M, f_m,
+maj_and_min_diatonic_roots = (c_M, c_m, d_M, d_m, e_M, e_m, f_M, f_m,
                                 g_M, g_m, a_M, a_m, b_M, b_m)
 
